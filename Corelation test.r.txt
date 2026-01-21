@@ -1,4 +1,4 @@
-Data science fundamentals 2, Micaiah young, jan 21 2026
+Data science fundamentals 2, Micaiah young, jan 21 2026, correlation test
 
 if(!require(devtools)) install.packages("devtools") devtools::install_github("kassambara/ggpubr")
 library("ggpubr")
@@ -9,3 +9,4 @@ res <- cor.test(my_data$wt, my_data$mpg, method = "pearson")
 res
 res2 <-cor.test(my_data$wt, my_data$mpg, method = "spearman")
 res2
+
